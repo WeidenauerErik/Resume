@@ -1,0 +1,29 @@
+% Erik Weidenauer -- Resume
+% Entry point: loads resume.sty for styling, then inputs each section in
+% order. Compile with pdflatex.
+\documentclass[11pt]{article}
+
+\usepackage{resume}
+
+\begin{document}
+
+\begin{center}
+  {\bfseries\Large \MakeUppercase{Erik Weidenauer}}\\[3pt]
+  +43 664 75596725\ |\ Vienna, Austria\ |\
+  \href{mailto:weidenauer.erik@outlook.com}{weidenauer.erik@outlook.com}\ |\
+  \href{https://weidenauererik.com}{weidenauererik.com}\ |\
+  \href{https://linkedin.com/in/erik-weidenauer}{linkedin.com/in/erik-weidenauer}\ |\
+  \href{https://github.com/WeidenauerErik}{github.com/WeidenauerErik}\\[4pt]
+  {\itshape\small Full-Stack Software Developer}
+\end{center}
+\vspace{4pt}
+
+\input{sections/education}
+\input{sections/experience}
+\newpage
+\input{sections/projects}
+\input{sections/certificates}
+\input{sections/awards}
+\input{sections/skills}
+
+\end{document}
